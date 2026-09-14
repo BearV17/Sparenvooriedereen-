@@ -1,3 +1,6 @@
+# Oorspronkelijke inlogoefening.
+# Het complete spaarsysteem start je met: python3 src/bank.py
+
 # Gebruikersgegevens
 opgeslagen_gebruiker = "admin"
 opgeslagen_pincode = "1234"
@@ -26,6 +29,6 @@ while pogingen < max_pogingen:
 # Controleer of de gebruiker binnen is of geblokkeerd is
 if toegang:
     print("Je hebt nu toegang tot je banksaldo en transacties.")
-    # Hier zou je de code van je bankprogramma kunnen plakken!
+    print("Start het volledige systeem met: python3 src/bank.py")
 else:
     print("\nSysteem geblokkeerd. Neem contact op met de bank.")
